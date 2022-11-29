@@ -1,0 +1,245 @@
+@media (max-width:1115px) {
+nav{
+    padding: 2rem 1rem;
+}
+    .header-txt h1{
+        font-size: 3rem;
+    }
+    .header-flex p{
+        padding: 1rem 0;
+    }
+    .about{
+        padding: 1rem 0;
+    }
+    .about h1{
+        font-size: 2rem;
+    }
+    .about-container{
+        padding: 1rem 0.7rem;
+    }
+    .about-content p,
+    .grid2,
+    .grid1{
+        padding: 0;
+    }
+     .company-btn{
+        padding: 0.5rem;
+    }
+
+   .stock-content{
+        display: none;
+    }
+}
+
+
+
+
+@media  (max-width:768px) {
+header{
+    height: 100%;
+}
+nav{
+    padding: 0 1rem;
+}
+
+.logo{
+    font-size: 1.2rem;
+}
+
+.navlinks{
+    background-color:gray;
+    width:400px;
+    height: auto;
+    z-index: 2;
+    position:fixed;
+overflow: hidden;
+top: 0;
+ left: -400px;
+text-align: center;
+    transition: ease-in-out 0.4s;
+}
+
+.navlinks ul{
+    display: block;
+}
+  .navlinks ul li a {
+      display: block;
+      margin: 50px auto;
+      color: #fff;}
+#close-menu{
+font-size: 1.5rem;
+    background: none;
+    border: none;
+    display: block;
+    cursor: pointer;
+    color: white;
+    text-align: right;
+    margin: 20px;
+}
+#open-menu {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    display: block;
+    cursor: pointer;
+    color:white;
+}
+.head-icon{
+    display: none;
+}
+.header-txt{
+    width: 100%;
+    margin: 3rem auto;
+    padding: 1rem;
+}
+.header-txt h1{
+    font-size: 2rem;
+}
+.header-flex,.header-flex p,.about{
+    padding: 1rem 0;
+}
+
+.about-container{
+    flex-direction: column;
+    padding: 1rem ; 
+}
+.about-content{
+    width: 100%;
+}
+.about-container h1{
+    margin-bottom: 1.5rem ;
+    font-size: 2rem;
+    padding: 1rem 0.5rem;
+    text-align: center;
+}
+.about-content h2{
+    padding:0 0.4rem;
+    font-size: 1.2rem;
+}
+.about-content p{
+    padding: 0.8rem 0.5rem;
+}
+.filters-container{
+    flex-direction: column;
+    padding: 1rem 0.6rem;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+.search-input{
+    padding: 0.5rem 1rem;
+    width: 100%;
+}
+.company-btn {
+    margin: 0.6rem auto;
+     width: 100%;
+ display: inline-block; 
+
+}
+.products-container .product{
+    min-width: 80%;
+}
+.sect3-txt h1{
+    font-size: 1.5rem;
+}
+.sect3-txt p{
+    padding: 0.9rem 0;
+}
+.sect4-container h1{
+    font-size: 3rem;
+    padding: 2rem 0;
+}
+.sect4-container
+{
+    padding: 0 1rem;
+    grid-template-columns: repeat(1, 1fr);
+}
+.line{
+    width: 100%;
+}
+.grid1{
+    position: absolute;
+    bottom:1%;
+    padding: 0;
+}
+.grid2{
+    position: absolute;
+    top: 35%;
+    padding: 0;
+
+}
+.stock{
+padding: 0.2rem 0;
+}
+.stock-content{
+    display: none;
+}
+.review{
+    padding: 1rem 0.8rem;
+}
+.review p{
+    padding: 1rem ;
+}
+.splide__arrows {
+    position: absolute;
+    bottom: 20%;
+    left: 40%;
+}
+footer{
+    padding: 0.9rem;
+}
+.footer-grid{
+    grid-template-columns: repeat(2,1fr);
+    padding: 1rem 0;
+    width: 100%;
+    gap: 2rem;
+    text-align: left;
+}
+.footer-link{
+    margin: auto;
+    width: 100%;
+}
+.footer-link h2{
+    font-size: 1.3rem;
+    padding-bottom: 0;
+}
+.footer-flex h5{
+    font-size: 0.8rem;
+}
+}
+
+@media (max-width:480px) {
+.header-txt h1{
+    font-size: 1.9rem;
+}
+.search-input{
+    max-width: 100%;
+}
+.splide__arrows {
+ position: absolute;
+ bottom: 15%;
+ left: 35%; }
+
+ .grid1 {
+ position: absolute;
+ bottom: 1%;
+ padding: 0;
+ }
+    
+.grid2 {
+ position: absolute;
+ top: 30%;
+ padding: 0;
+    }
+.line1{
+ width: 100%;
+ margin: 0.2rem 0;
+ }
+ .stock{
+padding: 0;
+    }
+.stock h4{
+text-align: left;
+ padding: 0;
+}
+
+}
