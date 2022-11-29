@@ -8,7 +8,7 @@ openMenu.addEventListener('click', function(){
 
 });
 closeMenu.addEventListener('click', function(){
-menu.style.left='-400px';
+menu.style.left='-300px';
 });
 
 
